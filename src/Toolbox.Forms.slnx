@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Toolbox.Forms.Demo/Toolbox.Forms.Demo.csproj" Id="be35a114-9e7b-40fe-a44b-895892681fc4" />
+  <Project Path="Toolbox.Forms/Toolbox.Forms.csproj" />
+</Solution>
