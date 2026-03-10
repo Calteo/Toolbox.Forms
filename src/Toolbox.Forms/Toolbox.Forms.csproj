@@ -23,4 +23,8 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Toolbox.Core" Version="0.6.18" />
+  </ItemGroup>
+
 </Project>
