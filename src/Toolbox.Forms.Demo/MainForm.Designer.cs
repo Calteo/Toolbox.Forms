@@ -31,13 +31,17 @@
 			tabControl = new TabControl();
 			tabPageMesgBox = new TabPage();
 			msgBoxControl = new Toolbox.Forms.Demo.Controls.MsgBoxControl();
+			tabPageWorkerPool = new TabPage();
+			workerPoolControl = new Toolbox.Forms.Demo.Controls.WorkerPoolControl();
 			tabControl.SuspendLayout();
 			tabPageMesgBox.SuspendLayout();
+			tabPageWorkerPool.SuspendLayout();
 			SuspendLayout();
 			// 
 			// tabControl
 			// 
 			tabControl.Controls.Add(tabPageMesgBox);
+			tabControl.Controls.Add(tabPageWorkerPool);
 			tabControl.Dock = DockStyle.Fill;
 			tabControl.Location = new Point(0, 0);
 			tabControl.Margin = new Padding(4);
@@ -66,6 +70,25 @@
 			msgBoxControl.Size = new Size(1446, 606);
 			msgBoxControl.TabIndex = 0;
 			// 
+			// tabPageWorkerPool
+			// 
+			tabPageWorkerPool.Controls.Add(workerPoolControl);
+			tabPageWorkerPool.Location = new Point(4, 34);
+			tabPageWorkerPool.Name = "tabPageWorkerPool";
+			tabPageWorkerPool.Padding = new Padding(3);
+			tabPageWorkerPool.Size = new Size(1454, 614);
+			tabPageWorkerPool.TabIndex = 2;
+			tabPageWorkerPool.Text = "WorkerPool";
+			tabPageWorkerPool.UseVisualStyleBackColor = true;
+			// 
+			// workerPoolControl
+			// 
+			workerPoolControl.Dock = DockStyle.Fill;
+			workerPoolControl.Location = new Point(3, 3);
+			workerPoolControl.Name = "workerPoolControl";
+			workerPoolControl.Size = new Size(1448, 608);
+			workerPoolControl.TabIndex = 0;
+			// 
 			// MainForm
 			// 
 			AutoScaleDimensions = new SizeF(10F, 25F);
@@ -78,6 +101,7 @@
 			Text = "Toolbox.Forms - Demo";
 			tabControl.ResumeLayout(false);
 			tabPageMesgBox.ResumeLayout(false);
+			tabPageWorkerPool.ResumeLayout(false);
 			ResumeLayout(false);
 		}
 
@@ -86,5 +110,7 @@
 		private TabControl tabControl;
 		private TabPage tabPageMesgBox;
 		private Controls.MsgBoxControl msgBoxControl;
+		private TabPage tabPageWorkerPool;
+		private Controls.WorkerPoolControl workerPoolControl;
 	}
 }
