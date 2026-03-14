@@ -15,8 +15,7 @@ namespace Toolbox.Forms
 			Func<IWorker<TP>, TI, TO> action, 
 			TI input, 
 			Action<string, int, TP>? progress, 
-			Action<string, TI, TO, 
-				bool, Exception?>? completed)
+			Action<IWorkResult<TI, TO>>? completed)
 		{
 			Pool = pool;
 			Name = name;
@@ -31,7 +30,7 @@ namespace Toolbox.Forms
 		public Func<IWorker<TP>, TI, TO> Action { get; }
 		public TI Input { get; }
 		public Action<string, int, TP>? Progress { get; }
-		public Action<string, TI, TO, bool, Exception?>? Completed { get; }
+		public Action<IWorkResult<TI, TO>>? Completed { get; }
 		public bool IsCancelled => Pool.IsCanceled;
 				
 		internal void Execute(object? state)
@@ -58,7 +57,9 @@ namespace Toolbox.Forms
 		{
 			if (Completed != null)
 			{
-				Pool.Owner!.Invoke(() => Completed(name, input, output, canceled, exception));
+				var result = new WorkResult<TI, TO>(name, input, output, canceled, exception);
+
+				Pool.Owner!.Invoke(() => Completed(result));
 			}
 		}
 

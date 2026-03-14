@@ -36,36 +36,35 @@ namespace Toolbox.Forms.Demo.Controls
 		{
 			if (checkBoxProgress.Checked)
 			{
-				workerPool.Enqueue<object?, string, object?>(WaitSingle, null, WaitSingleProgess, WaitSingleCompleted);
+				workerPool.Enqueue<string>(WaitSingle, WaitSimpleProgess, WaitSimpleCompleted);
 			}
 			else
 			{
-				workerPool.Enqueue<object?, string, object?>(WaitSingle, null, null, WaitSingleCompleted);
+				workerPool.Enqueue<string>(WaitSingle, WaitSimpleCompleted);
 			}			
 		}
 
-		private void WaitSingleProgess(string name, int id, string message)
+		private void WaitSimpleProgess(string name, int id, string message)
 		{
 			WriteProtocol($"Work '{name}' making progress: [{id}] - {message}");
 		}
 
-		private void WaitSingleCompleted(string name, object? input, object? output, bool canceled, Exception? exception)
+		private void WaitSimpleCompleted(IWorkResult result)
 		{
-			WriteProtocol($"Work '{name}' completed. Canceled: {canceled}, Exception: {exception?.Message ?? "<null>"}");
+			WriteProtocol($"Work '{result.Name}' completed. Canceled: {result.Canceled}, Exception: {result.Exception?.Message ?? "<null>"}");
 		}
 
-		private object? WaitSingle(IWorker<string> worker, object? input)
+		private void WaitSingle(IWorker<string> worker)
 		{
 			worker.ReportProgress(0, "Starting work...");
 			Thread.Sleep(2000);
-			if (worker.IsCancelled) return null;
+			if (worker.IsCancelled) return;
 			
 			worker.ReportProgress(1, "Halfway done...");
 			Thread.Sleep(2000);
-			if (worker.IsCancelled) return null;
+			if (worker.IsCancelled) return;
 
 			worker.ReportProgress(2, "Work completed.");
-			return null;
 		}
 
 		private void WriteProtocol(string message)
@@ -132,9 +131,9 @@ namespace Toolbox.Forms.Demo.Controls
 			WriteProtocol($"Work '{name}' making progress: [{id}] - {arg}");
 		}
 
-		private void WorkWithInputCompleted(string name, int input, string output, bool canceled, Exception? exception)
+		private void WorkWithInputCompleted(IWorkResult<int, string> result)
 		{
-			WriteProtocol($"Work '{name}' completed. Input: {input}, Output: '{output}', Canceled: {canceled}, Exception: {exception?.Message ?? "<null>"}");
+			WriteProtocol($"Work '{result.Name}' completed. Input: {result.Input}, Output: '{result.Output}', Canceled: {result.Canceled}, Exception: {result.Exception?.Message ?? "<null>"}");
 		}
 
 		private void ButtonCancelClick(object sender, EventArgs e)

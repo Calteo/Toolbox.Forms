@@ -10,7 +10,7 @@ namespace Toolbox.Forms
 		/// Name of the work item. This property is used to identify the work item within the worker pool and can be used for logging, debugging, or displaying progress information to the user. It provides a way to track and manage individual tasks within the pool, especially when multiple tasks are being executed concurrently.
 		/// </summary>
 		public string Name { get; }
-		public bool IsCancelled { get; }	
+		public bool IsCancelled { get; }
 	}
 
 	/// <summary>

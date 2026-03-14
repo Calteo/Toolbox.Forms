@@ -135,20 +135,72 @@ namespace Toolbox.Forms
 
 		internal bool IsCanceled { get; private set; }
 
+		public bool Enqueue<TP>(
+			Action<IWorker<TP>> action,
+			Action<IWorkResult>? completed = null)
+		{
+			return Enqueue<object?, TP, object?>(
+				GetWorkerId(),
+				(worker, _) =>
+				{
+					action(worker);
+					return null;
+				},
+				null,
+				null,
+				completed);
+		}
+
+		public bool Enqueue<TP>(
+			Action<IWorker<TP>> action,
+			Action<string, int, TP>? progress = null,
+			Action<IWorkResult>? completed = null)
+		{
+			return Enqueue<object?, TP, object?>(
+				GetWorkerId(),
+				(worker, _) =>
+				{
+					action(worker);
+					return null;
+				},
+				null,
+				progress,
+				completed);
+		}
+
+		public bool Enqueue<TP>(
+			string name,
+			Action<IWorker<TP>> action,
+			Action<string, int, TP>? progress = null,
+			Action<IWorkResult>? completed = null)
+		{
+			return Enqueue<object?, TP, object?>(
+				name,
+				(worker, _) =>
+				{
+					action(worker);
+					return null;
+				},
+				null,
+				progress,
+				completed);
+		}
+
 		public bool Enqueue<TI, TP, TO>(
 			Func<IWorker<TP>, TI, TO> action,
 			TI input,
 			Action<string, int, TP>? progress = null,
-			Action<string, TI, TO, bool, Exception?>? completed = null)
+			Action<IWorkResult<TI,TO>>? completed = null)
 		{
-			return Enqueue(GetWorkerId(), action, input, progress, completed);
+			return Enqueue<TI, TP, TO>(GetWorkerId(), action, input, progress, completed);
 		}
 
-		public bool Enqueue<TI, TP, TO>(string name, 
+		public bool Enqueue<TI, TP, TO>(
+			string name, 
 			Func<IWorker<TP>, TI, TO> action, 
 			TI input, 
 			Action<string, int, TP>? progress = null, 
-			Action<string, TI, TO, bool, Exception?>? completed = null) 
+			Action<IWorkResult<TI, TO>>? completed = null) 
 		{
 			if (IsCanceled) return false;
 
