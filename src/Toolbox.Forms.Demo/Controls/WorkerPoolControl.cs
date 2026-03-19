@@ -14,6 +14,9 @@ namespace Toolbox.Forms.Demo.Controls
 		public WorkerPoolControl()
 		{
 			InitializeComponent();
+
+			comboBoxClosing.Items.AddRange(Enum.GetValues<ClosingBehavior>().Cast<object>().ToArray());
+			comboBoxClosing.SelectedItem = workerPool.ClosingBehavior;
 		}
 
 		private void WorkerPoolStarted(object sender, EventArgs e)
@@ -34,14 +37,17 @@ namespace Toolbox.Forms.Demo.Controls
 
 		private void ButtonWaitClick(object sender, EventArgs e)
 		{
-			if (checkBoxProgress.Checked)
+			for (var i = 0; i < upDownTasks.Value; i++)
 			{
-				workerPool.Enqueue<string>(WaitSingle, WaitSimpleProgess, WaitSimpleCompleted);
+				if (checkBoxProgress.Checked)
+				{
+					workerPool.Enqueue<string>(WaitSingle, WaitSimpleProgess, WaitSimpleCompleted);
+				}
+				else
+				{
+					workerPool.Enqueue<string>(WaitSingle, WaitSimpleCompleted);
+				}
 			}
-			else
-			{
-				workerPool.Enqueue<string>(WaitSingle, WaitSimpleCompleted);
-			}			
 		}
 
 		private void WaitSimpleProgess(string name, int id, string message)
@@ -57,11 +63,11 @@ namespace Toolbox.Forms.Demo.Controls
 		private void WaitSingle(IWorker<string> worker)
 		{
 			worker.ReportProgress(0, "Starting work...");
-			Thread.Sleep(2000);
+			Thread.Sleep((int)upDownWait.Value);
 			if (worker.IsCancelled) return;
-			
+
 			worker.ReportProgress(1, "Halfway done...");
-			Thread.Sleep(2000);
+			Thread.Sleep((int)upDownWait.Value);
 			if (worker.IsCancelled) return;
 
 			worker.ReportProgress(2, "Work completed.");
@@ -89,21 +95,24 @@ namespace Toolbox.Forms.Demo.Controls
 
 		private void ButtonWaitWihtInputClick(object sender, EventArgs e)
 		{
-			if (checkBoxProgress.Checked)
+			for (var i = 0; i < upDownTasks.Value; i++)
 			{
-				workerPool.Enqueue<int, string, string>($"WaitInputProgress#{_waitCount++}",
-					WorkWithInput,
-					(int)upDownCount.Value,
-					WorkWithInputProgress,
-					WorkWithInputCompleted);
-			}
-			else
-			{
-				workerPool.Enqueue<int, string, string>($"WaitInputProgress#{_waitCount++}",
-					WorkWithInput,
-					(int)upDownCount.Value,
-					null,
-					WorkWithInputCompleted);
+				if (checkBoxProgress.Checked)
+				{
+					workerPool.Enqueue<int, string, string>($"WaitInputProgress#{_waitCount++}",
+						WorkWithInput,
+						(int)upDownCycles.Value,
+						WorkWithInputProgress,
+						WorkWithInputCompleted);
+				}
+				else
+				{
+					workerPool.Enqueue<int, string, string>($"WaitInputProgress#{_waitCount++}",
+						WorkWithInput,
+						(int)upDownCycles.Value,
+						null,
+						WorkWithInputCompleted);
+				}
 			}
 		}
 
@@ -139,6 +148,12 @@ namespace Toolbox.Forms.Demo.Controls
 		private void ButtonCancelClick(object sender, EventArgs e)
 		{
 			workerPool.Cancel();
+		}
+
+		private void ComboBoxClosingSelectedIndexChanged(object sender, EventArgs e)
+		{
+			if (comboBoxClosing.SelectedItem is ClosingBehavior behavior)
+				workerPool.ClosingBehavior = behavior;			
 		}
 	}
 }
