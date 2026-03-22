@@ -309,5 +309,69 @@ namespace Toolbox.Forms
 
 			return true;
 		}
+
+		public bool Enqueue<TI, TP>(
+			Action<IWorker<TP>, TI> action,
+			TI input,
+			Action<string, int, TP>? progress = null,
+			Action<IWorkResult<TI>>? completed = null)
+		{
+			return Enqueue<TI, TP>(GetWorkerId(), action, input, progress, completed);
+		}
+
+		public bool Enqueue<TI, TP>(
+			string name,
+			Action<IWorker<TP>, TI> action,
+			TI input,
+			Action<string, int, TP>? progress = null,
+			Action<IWorkResult<TI>>? completed = null)
+		{
+			return Enqueue<TI, TP, object?>(
+				name,
+				(worker, input) =>
+				{
+					action(worker, input);
+					return null;
+				},
+				input,
+				progress,
+				result =>
+				{
+					if (completed!=null && result is IWorkResult<TI> r)
+						completed(r);
+				}
+				);
+		}
+
+		public bool Enqueue<TI>(
+			Action<IWorker, TI> action,
+			TI input,
+			Action<IWorkResult<TI>>? completed = null)
+		{
+			return Enqueue(GetWorkerId(), action, input, completed);
+		}
+
+		public bool Enqueue<TI>(
+			string name,
+			Action<IWorker, TI> action,
+			TI input,
+			Action<IWorkResult<TI>>? completed = null)
+		{
+			return Enqueue<TI, object?, object?>(
+				name,
+				(worker, input) =>
+				{
+					action(worker, input);
+					return null;
+				},
+				input,
+				null,
+				result =>
+				{
+					if (completed != null && result is IWorkResult<TI> r)
+						completed(r);
+				}
+				);
+		}
 	}
 }

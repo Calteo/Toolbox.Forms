@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Toolbox.Forms
+﻿namespace Toolbox.Forms
 {
 	public interface IWorkResult
 	{
@@ -17,7 +13,13 @@ namespace Toolbox.Forms
 		public TO Output { get; }
 	}
 
-	internal class WorkResult<TI, TO> : IWorkResult<TI, TO>
+	public interface IWorkResult<TI> : IWorkResult
+	{
+		public TI Input { get; }
+	}
+
+
+	internal class WorkResult<TI, TO> : IWorkResult<TI, TO>, IWorkResult<TI>, IWorkResult
 	{
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WorkResult{TI, TO}"/>  class.
