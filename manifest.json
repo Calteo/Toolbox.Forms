@@ -1,0 +1,250 @@
+{
+  "source_base_path": "D:/a/Toolbox.Forms/Toolbox.Forms/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Toolbox.Forms.ClosingBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Toolbox.Forms.ClosingBehavior.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Toolbox.Forms.ClosingBehavior",
+      "Summary": "<p sourcefile=\"api/Toolbox.Forms.ClosingBehavior.yml\" sourcestartlinenumber=\"1\">Specifies the available behaviors when closing the form.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Toolbox.Forms.IWorkResult-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Toolbox.Forms.IWorkResult-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Toolbox.Forms.IWorkResult<TI>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Toolbox.Forms.IWorkResult-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Toolbox.Forms.IWorkResult-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Toolbox.Forms.IWorkResult<TI, TO>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Toolbox.Forms.IWorkResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Toolbox.Forms.IWorkResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Toolbox.Forms.IWorkResult",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Toolbox.Forms.IWorker-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Toolbox.Forms.IWorker-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Toolbox.Forms.IWorker<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Toolbox.Forms.IWorker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Toolbox.Forms.IWorker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Toolbox.Forms.IWorker",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Toolbox.Forms.MsgBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Toolbox.Forms.MsgBox.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Toolbox.Forms.MsgBox",
+      "Summary": "<p sourcefile=\"api/Toolbox.Forms.MsgBox.yml\" sourcestartlinenumber=\"1\">Better message box</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Toolbox.Forms.WorkItemEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Toolbox.Forms.WorkItemEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Toolbox.Forms.WorkItemEventArgs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Toolbox.Forms.WorkerPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Toolbox.Forms.WorkerPool.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Toolbox.Forms.WorkerPool",
+      "Summary": "<p sourcefile=\"api/Toolbox.Forms.WorkerPool.yml\" sourcestartlinenumber=\"1\">A pool of worker threads that can be used to execute tasks in the background. This component manages a collection of worker threads and provides methods to add tasks to the pool, monitor their progress, and handle their completion.\nIt is designed to simplify the process of executing tasks concurrently without blocking the main thread of an application.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Toolbox.Forms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Toolbox.Forms.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Toolbox.Forms",
+      "Summary": null
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/disclaimer.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/disclaimer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/icon_tools.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/icon_tools.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/icon_tools_50.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/icon_tools_50.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

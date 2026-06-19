@@ -1,0 +1,635 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Toolbox.Forms
+  name: Toolbox.Forms
+  href: api/Toolbox.Forms.html
+  commentId: N:Toolbox.Forms
+  fullName: Toolbox.Forms
+  nameWithType: Toolbox.Forms
+- uid: Toolbox.Forms.ClosingBehavior
+  name: ClosingBehavior
+  href: api/Toolbox.Forms.ClosingBehavior.html
+  commentId: T:Toolbox.Forms.ClosingBehavior
+  fullName: Toolbox.Forms.ClosingBehavior
+  nameWithType: ClosingBehavior
+- uid: Toolbox.Forms.ClosingBehavior.BlockClose
+  name: BlockClose
+  href: api/Toolbox.Forms.ClosingBehavior.html#Toolbox_Forms_ClosingBehavior_BlockClose
+  commentId: F:Toolbox.Forms.ClosingBehavior.BlockClose
+  fullName: Toolbox.Forms.ClosingBehavior.BlockClose
+  nameWithType: ClosingBehavior.BlockClose
+- uid: Toolbox.Forms.ClosingBehavior.CancelClose
+  name: CancelClose
+  href: api/Toolbox.Forms.ClosingBehavior.html#Toolbox_Forms_ClosingBehavior_CancelClose
+  commentId: F:Toolbox.Forms.ClosingBehavior.CancelClose
+  fullName: Toolbox.Forms.ClosingBehavior.CancelClose
+  nameWithType: ClosingBehavior.CancelClose
+- uid: Toolbox.Forms.ClosingBehavior.CancelHideClose
+  name: CancelHideClose
+  href: api/Toolbox.Forms.ClosingBehavior.html#Toolbox_Forms_ClosingBehavior_CancelHideClose
+  commentId: F:Toolbox.Forms.ClosingBehavior.CancelHideClose
+  fullName: Toolbox.Forms.ClosingBehavior.CancelHideClose
+  nameWithType: ClosingBehavior.CancelHideClose
+- uid: Toolbox.Forms.ClosingBehavior.CancelWaitClose
+  name: CancelWaitClose
+  href: api/Toolbox.Forms.ClosingBehavior.html#Toolbox_Forms_ClosingBehavior_CancelWaitClose
+  commentId: F:Toolbox.Forms.ClosingBehavior.CancelWaitClose
+  fullName: Toolbox.Forms.ClosingBehavior.CancelWaitClose
+  nameWithType: ClosingBehavior.CancelWaitClose
+- uid: Toolbox.Forms.ClosingBehavior.None
+  name: None
+  href: api/Toolbox.Forms.ClosingBehavior.html#Toolbox_Forms_ClosingBehavior_None
+  commentId: F:Toolbox.Forms.ClosingBehavior.None
+  fullName: Toolbox.Forms.ClosingBehavior.None
+  nameWithType: ClosingBehavior.None
+- uid: Toolbox.Forms.ClosingBehavior.QueryClose
+  name: QueryClose
+  href: api/Toolbox.Forms.ClosingBehavior.html#Toolbox_Forms_ClosingBehavior_QueryClose
+  commentId: F:Toolbox.Forms.ClosingBehavior.QueryClose
+  fullName: Toolbox.Forms.ClosingBehavior.QueryClose
+  nameWithType: ClosingBehavior.QueryClose
+- uid: Toolbox.Forms.IWorkResult
+  name: IWorkResult
+  href: api/Toolbox.Forms.IWorkResult.html
+  commentId: T:Toolbox.Forms.IWorkResult
+  fullName: Toolbox.Forms.IWorkResult
+  nameWithType: IWorkResult
+- uid: Toolbox.Forms.IWorkResult.Canceled
+  name: Canceled
+  href: api/Toolbox.Forms.IWorkResult.html#Toolbox_Forms_IWorkResult_Canceled
+  commentId: P:Toolbox.Forms.IWorkResult.Canceled
+  fullName: Toolbox.Forms.IWorkResult.Canceled
+  nameWithType: IWorkResult.Canceled
+- uid: Toolbox.Forms.IWorkResult.Canceled*
+  name: Canceled
+  href: api/Toolbox.Forms.IWorkResult.html#Toolbox_Forms_IWorkResult_Canceled_
+  commentId: Overload:Toolbox.Forms.IWorkResult.Canceled
+  isSpec: "True"
+  fullName: Toolbox.Forms.IWorkResult.Canceled
+  nameWithType: IWorkResult.Canceled
+- uid: Toolbox.Forms.IWorkResult.Exception
+  name: Exception
+  href: api/Toolbox.Forms.IWorkResult.html#Toolbox_Forms_IWorkResult_Exception
+  commentId: P:Toolbox.Forms.IWorkResult.Exception
+  fullName: Toolbox.Forms.IWorkResult.Exception
+  nameWithType: IWorkResult.Exception
+- uid: Toolbox.Forms.IWorkResult.Exception*
+  name: Exception
+  href: api/Toolbox.Forms.IWorkResult.html#Toolbox_Forms_IWorkResult_Exception_
+  commentId: Overload:Toolbox.Forms.IWorkResult.Exception
+  isSpec: "True"
+  fullName: Toolbox.Forms.IWorkResult.Exception
+  nameWithType: IWorkResult.Exception
+- uid: Toolbox.Forms.IWorkResult.Name
+  name: Name
+  href: api/Toolbox.Forms.IWorkResult.html#Toolbox_Forms_IWorkResult_Name
+  commentId: P:Toolbox.Forms.IWorkResult.Name
+  fullName: Toolbox.Forms.IWorkResult.Name
+  nameWithType: IWorkResult.Name
+- uid: Toolbox.Forms.IWorkResult.Name*
+  name: Name
+  href: api/Toolbox.Forms.IWorkResult.html#Toolbox_Forms_IWorkResult_Name_
+  commentId: Overload:Toolbox.Forms.IWorkResult.Name
+  isSpec: "True"
+  fullName: Toolbox.Forms.IWorkResult.Name
+  nameWithType: IWorkResult.Name
+- uid: Toolbox.Forms.IWorkResult`1
+  name: IWorkResult<TI>
+  href: api/Toolbox.Forms.IWorkResult-1.html
+  commentId: T:Toolbox.Forms.IWorkResult`1
+  name.vb: IWorkResult(Of TI)
+  fullName: Toolbox.Forms.IWorkResult<TI>
+  fullName.vb: Toolbox.Forms.IWorkResult(Of TI)
+  nameWithType: IWorkResult<TI>
+  nameWithType.vb: IWorkResult(Of TI)
+- uid: Toolbox.Forms.IWorkResult`1.Input
+  name: Input
+  href: api/Toolbox.Forms.IWorkResult-1.html#Toolbox_Forms_IWorkResult_1_Input
+  commentId: P:Toolbox.Forms.IWorkResult`1.Input
+  fullName: Toolbox.Forms.IWorkResult<TI>.Input
+  fullName.vb: Toolbox.Forms.IWorkResult(Of TI).Input
+  nameWithType: IWorkResult<TI>.Input
+  nameWithType.vb: IWorkResult(Of TI).Input
+- uid: Toolbox.Forms.IWorkResult`1.Input*
+  name: Input
+  href: api/Toolbox.Forms.IWorkResult-1.html#Toolbox_Forms_IWorkResult_1_Input_
+  commentId: Overload:Toolbox.Forms.IWorkResult`1.Input
+  isSpec: "True"
+  fullName: Toolbox.Forms.IWorkResult<TI>.Input
+  fullName.vb: Toolbox.Forms.IWorkResult(Of TI).Input
+  nameWithType: IWorkResult<TI>.Input
+  nameWithType.vb: IWorkResult(Of TI).Input
+- uid: Toolbox.Forms.IWorkResult`2
+  name: IWorkResult<TI, TO>
+  href: api/Toolbox.Forms.IWorkResult-2.html
+  commentId: T:Toolbox.Forms.IWorkResult`2
+  name.vb: IWorkResult(Of TI, TO)
+  fullName: Toolbox.Forms.IWorkResult<TI, TO>
+  fullName.vb: Toolbox.Forms.IWorkResult(Of TI, TO)
+  nameWithType: IWorkResult<TI, TO>
+  nameWithType.vb: IWorkResult(Of TI, TO)
+- uid: Toolbox.Forms.IWorkResult`2.Input
+  name: Input
+  href: api/Toolbox.Forms.IWorkResult-2.html#Toolbox_Forms_IWorkResult_2_Input
+  commentId: P:Toolbox.Forms.IWorkResult`2.Input
+  fullName: Toolbox.Forms.IWorkResult<TI, TO>.Input
+  fullName.vb: Toolbox.Forms.IWorkResult(Of TI, TO).Input
+  nameWithType: IWorkResult<TI, TO>.Input
+  nameWithType.vb: IWorkResult(Of TI, TO).Input
+- uid: Toolbox.Forms.IWorkResult`2.Input*
+  name: Input
+  href: api/Toolbox.Forms.IWorkResult-2.html#Toolbox_Forms_IWorkResult_2_Input_
+  commentId: Overload:Toolbox.Forms.IWorkResult`2.Input
+  isSpec: "True"
+  fullName: Toolbox.Forms.IWorkResult<TI, TO>.Input
+  fullName.vb: Toolbox.Forms.IWorkResult(Of TI, TO).Input
+  nameWithType: IWorkResult<TI, TO>.Input
+  nameWithType.vb: IWorkResult(Of TI, TO).Input
+- uid: Toolbox.Forms.IWorkResult`2.Output
+  name: Output
+  href: api/Toolbox.Forms.IWorkResult-2.html#Toolbox_Forms_IWorkResult_2_Output
+  commentId: P:Toolbox.Forms.IWorkResult`2.Output
+  fullName: Toolbox.Forms.IWorkResult<TI, TO>.Output
+  fullName.vb: Toolbox.Forms.IWorkResult(Of TI, TO).Output
+  nameWithType: IWorkResult<TI, TO>.Output
+  nameWithType.vb: IWorkResult(Of TI, TO).Output
+- uid: Toolbox.Forms.IWorkResult`2.Output*
+  name: Output
+  href: api/Toolbox.Forms.IWorkResult-2.html#Toolbox_Forms_IWorkResult_2_Output_
+  commentId: Overload:Toolbox.Forms.IWorkResult`2.Output
+  isSpec: "True"
+  fullName: Toolbox.Forms.IWorkResult<TI, TO>.Output
+  fullName.vb: Toolbox.Forms.IWorkResult(Of TI, TO).Output
+  nameWithType: IWorkResult<TI, TO>.Output
+  nameWithType.vb: IWorkResult(Of TI, TO).Output
+- uid: Toolbox.Forms.IWorker
+  name: IWorker
+  href: api/Toolbox.Forms.IWorker.html
+  commentId: T:Toolbox.Forms.IWorker
+  fullName: Toolbox.Forms.IWorker
+  nameWithType: IWorker
+- uid: Toolbox.Forms.IWorker.IsCancelled
+  name: IsCancelled
+  href: api/Toolbox.Forms.IWorker.html#Toolbox_Forms_IWorker_IsCancelled
+  commentId: P:Toolbox.Forms.IWorker.IsCancelled
+  fullName: Toolbox.Forms.IWorker.IsCancelled
+  nameWithType: IWorker.IsCancelled
+- uid: Toolbox.Forms.IWorker.IsCancelled*
+  name: IsCancelled
+  href: api/Toolbox.Forms.IWorker.html#Toolbox_Forms_IWorker_IsCancelled_
+  commentId: Overload:Toolbox.Forms.IWorker.IsCancelled
+  isSpec: "True"
+  fullName: Toolbox.Forms.IWorker.IsCancelled
+  nameWithType: IWorker.IsCancelled
+- uid: Toolbox.Forms.IWorker.Name
+  name: Name
+  href: api/Toolbox.Forms.IWorker.html#Toolbox_Forms_IWorker_Name
+  commentId: P:Toolbox.Forms.IWorker.Name
+  fullName: Toolbox.Forms.IWorker.Name
+  nameWithType: IWorker.Name
+- uid: Toolbox.Forms.IWorker.Name*
+  name: Name
+  href: api/Toolbox.Forms.IWorker.html#Toolbox_Forms_IWorker_Name_
+  commentId: Overload:Toolbox.Forms.IWorker.Name
+  isSpec: "True"
+  fullName: Toolbox.Forms.IWorker.Name
+  nameWithType: IWorker.Name
+- uid: Toolbox.Forms.IWorker`1
+  name: IWorker<T>
+  href: api/Toolbox.Forms.IWorker-1.html
+  commentId: T:Toolbox.Forms.IWorker`1
+  name.vb: IWorker(Of T)
+  fullName: Toolbox.Forms.IWorker<T>
+  fullName.vb: Toolbox.Forms.IWorker(Of T)
+  nameWithType: IWorker<T>
+  nameWithType.vb: IWorker(Of T)
+- uid: Toolbox.Forms.IWorker`1.ReportProgress(System.Int32,`0)
+  name: ReportProgress(int, T)
+  href: api/Toolbox.Forms.IWorker-1.html#Toolbox_Forms_IWorker_1_ReportProgress_System_Int32__0_
+  commentId: M:Toolbox.Forms.IWorker`1.ReportProgress(System.Int32,`0)
+  name.vb: ReportProgress(Integer, T)
+  fullName: Toolbox.Forms.IWorker<T>.ReportProgress(int, T)
+  fullName.vb: Toolbox.Forms.IWorker(Of T).ReportProgress(Integer, T)
+  nameWithType: IWorker<T>.ReportProgress(int, T)
+  nameWithType.vb: IWorker(Of T).ReportProgress(Integer, T)
+- uid: Toolbox.Forms.IWorker`1.ReportProgress*
+  name: ReportProgress
+  href: api/Toolbox.Forms.IWorker-1.html#Toolbox_Forms_IWorker_1_ReportProgress_
+  commentId: Overload:Toolbox.Forms.IWorker`1.ReportProgress
+  isSpec: "True"
+  fullName: Toolbox.Forms.IWorker<T>.ReportProgress
+  fullName.vb: Toolbox.Forms.IWorker(Of T).ReportProgress
+  nameWithType: IWorker<T>.ReportProgress
+  nameWithType.vb: IWorker(Of T).ReportProgress
+- uid: Toolbox.Forms.MsgBox
+  name: MsgBox
+  href: api/Toolbox.Forms.MsgBox.html
+  commentId: T:Toolbox.Forms.MsgBox
+  fullName: Toolbox.Forms.MsgBox
+  nameWithType: MsgBox
+- uid: Toolbox.Forms.MsgBox.#ctor
+  name: MsgBox()
+  href: api/Toolbox.Forms.MsgBox.html#Toolbox_Forms_MsgBox__ctor
+  commentId: M:Toolbox.Forms.MsgBox.#ctor
+  name.vb: New()
+  fullName: Toolbox.Forms.MsgBox.MsgBox()
+  fullName.vb: Toolbox.Forms.MsgBox.New()
+  nameWithType: MsgBox.MsgBox()
+  nameWithType.vb: MsgBox.New()
+- uid: Toolbox.Forms.MsgBox.#ctor*
+  name: MsgBox
+  href: api/Toolbox.Forms.MsgBox.html#Toolbox_Forms_MsgBox__ctor_
+  commentId: Overload:Toolbox.Forms.MsgBox.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Toolbox.Forms.MsgBox.MsgBox
+  fullName.vb: Toolbox.Forms.MsgBox.New
+  nameWithType: MsgBox.MsgBox
+  nameWithType.vb: MsgBox.New
+- uid: Toolbox.Forms.MsgBox.Buttons
+  name: Buttons
+  href: api/Toolbox.Forms.MsgBox.html#Toolbox_Forms_MsgBox_Buttons
+  commentId: P:Toolbox.Forms.MsgBox.Buttons
+  fullName: Toolbox.Forms.MsgBox.Buttons
+  nameWithType: MsgBox.Buttons
+- uid: Toolbox.Forms.MsgBox.Buttons*
+  name: Buttons
+  href: api/Toolbox.Forms.MsgBox.html#Toolbox_Forms_MsgBox_Buttons_
+  commentId: Overload:Toolbox.Forms.MsgBox.Buttons
+  isSpec: "True"
+  fullName: Toolbox.Forms.MsgBox.Buttons
+  nameWithType: MsgBox.Buttons
+- uid: Toolbox.Forms.MsgBox.Caption
+  name: Caption
+  href: api/Toolbox.Forms.MsgBox.html#Toolbox_Forms_MsgBox_Caption
+  commentId: P:Toolbox.Forms.MsgBox.Caption
+  fullName: Toolbox.Forms.MsgBox.Caption
+  nameWithType: MsgBox.Caption
+- uid: Toolbox.Forms.MsgBox.Caption*
+  name: Caption
+  href: api/Toolbox.Forms.MsgBox.html#Toolbox_Forms_MsgBox_Caption_
+  commentId: Overload:Toolbox.Forms.MsgBox.Caption
+  isSpec: "True"
+  fullName: Toolbox.Forms.MsgBox.Caption
+  nameWithType: MsgBox.Caption
+- uid: Toolbox.Forms.MsgBox.Details
+  name: Details
+  href: api/Toolbox.Forms.MsgBox.html#Toolbox_Forms_MsgBox_Details
+  commentId: P:Toolbox.Forms.MsgBox.Details
+  fullName: Toolbox.Forms.MsgBox.Details
+  nameWithType: MsgBox.Details
+- uid: Toolbox.Forms.MsgBox.Details*
+  name: Details
+  href: api/Toolbox.Forms.MsgBox.html#Toolbox_Forms_MsgBox_Details_
+  commentId: Overload:Toolbox.Forms.MsgBox.Details
+  isSpec: "True"
+  fullName: Toolbox.Forms.MsgBox.Details
+  nameWithType: MsgBox.Details
+- uid: Toolbox.Forms.MsgBox.Icon
+  name: Icon
+  href: api/Toolbox.Forms.MsgBox.html#Toolbox_Forms_MsgBox_Icon
+  commentId: P:Toolbox.Forms.MsgBox.Icon
+  fullName: Toolbox.Forms.MsgBox.Icon
+  nameWithType: MsgBox.Icon
+- uid: Toolbox.Forms.MsgBox.Icon*
+  name: Icon
+  href: api/Toolbox.Forms.MsgBox.html#Toolbox_Forms_MsgBox_Icon_
+  commentId: Overload:Toolbox.Forms.MsgBox.Icon
+  isSpec: "True"
+  fullName: Toolbox.Forms.MsgBox.Icon
+  nameWithType: MsgBox.Icon
+- uid: Toolbox.Forms.MsgBox.Show(System.Windows.Forms.IWin32Window)
+  name: Show(IWin32Window?)
+  href: api/Toolbox.Forms.MsgBox.html#Toolbox_Forms_MsgBox_Show_System_Windows_Forms_IWin32Window_
+  commentId: M:Toolbox.Forms.MsgBox.Show(System.Windows.Forms.IWin32Window)
+  name.vb: Show(IWin32Window)
+  fullName: Toolbox.Forms.MsgBox.Show(System.Windows.Forms.IWin32Window?)
+  fullName.vb: Toolbox.Forms.MsgBox.Show(System.Windows.Forms.IWin32Window)
+  nameWithType: MsgBox.Show(IWin32Window?)
+  nameWithType.vb: MsgBox.Show(IWin32Window)
+- uid: Toolbox.Forms.MsgBox.Show(System.Windows.Forms.IWin32Window,System.String,System.String,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon,System.String)
+  name: Show(IWin32Window?, string, string?, MessageBoxButtons, MessageBoxIcon, string?)
+  href: api/Toolbox.Forms.MsgBox.html#Toolbox_Forms_MsgBox_Show_System_Windows_Forms_IWin32Window_System_String_System_String_System_Windows_Forms_MessageBoxButtons_System_Windows_Forms_MessageBoxIcon_System_String_
+  commentId: M:Toolbox.Forms.MsgBox.Show(System.Windows.Forms.IWin32Window,System.String,System.String,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon,System.String)
+  name.vb: Show(IWin32Window, String, String, MessageBoxButtons, MessageBoxIcon, String)
+  fullName: Toolbox.Forms.MsgBox.Show(System.Windows.Forms.IWin32Window?, string, string?, System.Windows.Forms.MessageBoxButtons, System.Windows.Forms.MessageBoxIcon, string?)
+  fullName.vb: Toolbox.Forms.MsgBox.Show(System.Windows.Forms.IWin32Window, String, String, System.Windows.Forms.MessageBoxButtons, System.Windows.Forms.MessageBoxIcon, String)
+  nameWithType: MsgBox.Show(IWin32Window?, string, string?, MessageBoxButtons, MessageBoxIcon, string?)
+  nameWithType.vb: MsgBox.Show(IWin32Window, String, String, MessageBoxButtons, MessageBoxIcon, String)
+- uid: Toolbox.Forms.MsgBox.Show(System.Windows.Forms.IWin32Window,System.String,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon)
+  name: Show(IWin32Window, string, MessageBoxButtons, MessageBoxIcon)
+  href: api/Toolbox.Forms.MsgBox.html#Toolbox_Forms_MsgBox_Show_System_Windows_Forms_IWin32Window_System_String_System_Windows_Forms_MessageBoxButtons_System_Windows_Forms_MessageBoxIcon_
+  commentId: M:Toolbox.Forms.MsgBox.Show(System.Windows.Forms.IWin32Window,System.String,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon)
+  name.vb: Show(IWin32Window, String, MessageBoxButtons, MessageBoxIcon)
+  fullName: Toolbox.Forms.MsgBox.Show(System.Windows.Forms.IWin32Window, string, System.Windows.Forms.MessageBoxButtons, System.Windows.Forms.MessageBoxIcon)
+  fullName.vb: Toolbox.Forms.MsgBox.Show(System.Windows.Forms.IWin32Window, String, System.Windows.Forms.MessageBoxButtons, System.Windows.Forms.MessageBoxIcon)
+  nameWithType: MsgBox.Show(IWin32Window, string, MessageBoxButtons, MessageBoxIcon)
+  nameWithType.vb: MsgBox.Show(IWin32Window, String, MessageBoxButtons, MessageBoxIcon)
+- uid: Toolbox.Forms.MsgBox.Show*
+  name: Show
+  href: api/Toolbox.Forms.MsgBox.html#Toolbox_Forms_MsgBox_Show_
+  commentId: Overload:Toolbox.Forms.MsgBox.Show
+  isSpec: "True"
+  fullName: Toolbox.Forms.MsgBox.Show
+  nameWithType: MsgBox.Show
+- uid: Toolbox.Forms.MsgBox.Text
+  name: Text
+  href: api/Toolbox.Forms.MsgBox.html#Toolbox_Forms_MsgBox_Text
+  commentId: P:Toolbox.Forms.MsgBox.Text
+  fullName: Toolbox.Forms.MsgBox.Text
+  nameWithType: MsgBox.Text
+- uid: Toolbox.Forms.MsgBox.Text*
+  name: Text
+  href: api/Toolbox.Forms.MsgBox.html#Toolbox_Forms_MsgBox_Text_
+  commentId: Overload:Toolbox.Forms.MsgBox.Text
+  isSpec: "True"
+  fullName: Toolbox.Forms.MsgBox.Text
+  nameWithType: MsgBox.Text
+- uid: Toolbox.Forms.WorkItemEventArgs
+  name: WorkItemEventArgs
+  href: api/Toolbox.Forms.WorkItemEventArgs.html
+  commentId: T:Toolbox.Forms.WorkItemEventArgs
+  fullName: Toolbox.Forms.WorkItemEventArgs
+  nameWithType: WorkItemEventArgs
+- uid: Toolbox.Forms.WorkItemEventArgs.#ctor(System.String)
+  name: WorkItemEventArgs(string)
+  href: api/Toolbox.Forms.WorkItemEventArgs.html#Toolbox_Forms_WorkItemEventArgs__ctor_System_String_
+  commentId: M:Toolbox.Forms.WorkItemEventArgs.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Toolbox.Forms.WorkItemEventArgs.WorkItemEventArgs(string)
+  fullName.vb: Toolbox.Forms.WorkItemEventArgs.New(String)
+  nameWithType: WorkItemEventArgs.WorkItemEventArgs(string)
+  nameWithType.vb: WorkItemEventArgs.New(String)
+- uid: Toolbox.Forms.WorkItemEventArgs.#ctor*
+  name: WorkItemEventArgs
+  href: api/Toolbox.Forms.WorkItemEventArgs.html#Toolbox_Forms_WorkItemEventArgs__ctor_
+  commentId: Overload:Toolbox.Forms.WorkItemEventArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Toolbox.Forms.WorkItemEventArgs.WorkItemEventArgs
+  fullName.vb: Toolbox.Forms.WorkItemEventArgs.New
+  nameWithType: WorkItemEventArgs.WorkItemEventArgs
+  nameWithType.vb: WorkItemEventArgs.New
+- uid: Toolbox.Forms.WorkItemEventArgs.Name
+  name: Name
+  href: api/Toolbox.Forms.WorkItemEventArgs.html#Toolbox_Forms_WorkItemEventArgs_Name
+  commentId: P:Toolbox.Forms.WorkItemEventArgs.Name
+  fullName: Toolbox.Forms.WorkItemEventArgs.Name
+  nameWithType: WorkItemEventArgs.Name
+- uid: Toolbox.Forms.WorkItemEventArgs.Name*
+  name: Name
+  href: api/Toolbox.Forms.WorkItemEventArgs.html#Toolbox_Forms_WorkItemEventArgs_Name_
+  commentId: Overload:Toolbox.Forms.WorkItemEventArgs.Name
+  isSpec: "True"
+  fullName: Toolbox.Forms.WorkItemEventArgs.Name
+  nameWithType: WorkItemEventArgs.Name
+- uid: Toolbox.Forms.WorkerPool
+  name: WorkerPool
+  href: api/Toolbox.Forms.WorkerPool.html
+  commentId: T:Toolbox.Forms.WorkerPool
+  fullName: Toolbox.Forms.WorkerPool
+  nameWithType: WorkerPool
+- uid: Toolbox.Forms.WorkerPool.#ctor
+  name: WorkerPool()
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool__ctor
+  commentId: M:Toolbox.Forms.WorkerPool.#ctor
+  name.vb: New()
+  fullName: Toolbox.Forms.WorkerPool.WorkerPool()
+  fullName.vb: Toolbox.Forms.WorkerPool.New()
+  nameWithType: WorkerPool.WorkerPool()
+  nameWithType.vb: WorkerPool.New()
+- uid: Toolbox.Forms.WorkerPool.#ctor(System.ComponentModel.IContainer)
+  name: WorkerPool(IContainer)
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool__ctor_System_ComponentModel_IContainer_
+  commentId: M:Toolbox.Forms.WorkerPool.#ctor(System.ComponentModel.IContainer)
+  name.vb: New(IContainer)
+  fullName: Toolbox.Forms.WorkerPool.WorkerPool(System.ComponentModel.IContainer)
+  fullName.vb: Toolbox.Forms.WorkerPool.New(System.ComponentModel.IContainer)
+  nameWithType: WorkerPool.WorkerPool(IContainer)
+  nameWithType.vb: WorkerPool.New(IContainer)
+- uid: Toolbox.Forms.WorkerPool.#ctor*
+  name: WorkerPool
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool__ctor_
+  commentId: Overload:Toolbox.Forms.WorkerPool.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Toolbox.Forms.WorkerPool.WorkerPool
+  fullName.vb: Toolbox.Forms.WorkerPool.New
+  nameWithType: WorkerPool.WorkerPool
+  nameWithType.vb: WorkerPool.New
+- uid: Toolbox.Forms.WorkerPool.Cancel
+  name: Cancel()
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_Cancel
+  commentId: M:Toolbox.Forms.WorkerPool.Cancel
+  fullName: Toolbox.Forms.WorkerPool.Cancel()
+  nameWithType: WorkerPool.Cancel()
+- uid: Toolbox.Forms.WorkerPool.Cancel*
+  name: Cancel
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_Cancel_
+  commentId: Overload:Toolbox.Forms.WorkerPool.Cancel
+  isSpec: "True"
+  fullName: Toolbox.Forms.WorkerPool.Cancel
+  nameWithType: WorkerPool.Cancel
+- uid: Toolbox.Forms.WorkerPool.ClosePending
+  name: ClosePending
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_ClosePending
+  commentId: P:Toolbox.Forms.WorkerPool.ClosePending
+  fullName: Toolbox.Forms.WorkerPool.ClosePending
+  nameWithType: WorkerPool.ClosePending
+- uid: Toolbox.Forms.WorkerPool.ClosePending*
+  name: ClosePending
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_ClosePending_
+  commentId: Overload:Toolbox.Forms.WorkerPool.ClosePending
+  isSpec: "True"
+  fullName: Toolbox.Forms.WorkerPool.ClosePending
+  nameWithType: WorkerPool.ClosePending
+- uid: Toolbox.Forms.WorkerPool.ClosingBehavior
+  name: ClosingBehavior
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_ClosingBehavior
+  commentId: P:Toolbox.Forms.WorkerPool.ClosingBehavior
+  fullName: Toolbox.Forms.WorkerPool.ClosingBehavior
+  nameWithType: WorkerPool.ClosingBehavior
+- uid: Toolbox.Forms.WorkerPool.ClosingBehavior*
+  name: ClosingBehavior
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_ClosingBehavior_
+  commentId: Overload:Toolbox.Forms.WorkerPool.ClosingBehavior
+  isSpec: "True"
+  fullName: Toolbox.Forms.WorkerPool.ClosingBehavior
+  nameWithType: WorkerPool.ClosingBehavior
+- uid: Toolbox.Forms.WorkerPool.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_Dispose_System_Boolean_
+  commentId: M:Toolbox.Forms.WorkerPool.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: Toolbox.Forms.WorkerPool.Dispose(bool)
+  fullName.vb: Toolbox.Forms.WorkerPool.Dispose(Boolean)
+  nameWithType: WorkerPool.Dispose(bool)
+  nameWithType.vb: WorkerPool.Dispose(Boolean)
+- uid: Toolbox.Forms.WorkerPool.Dispose*
+  name: Dispose
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_Dispose_
+  commentId: Overload:Toolbox.Forms.WorkerPool.Dispose
+  isSpec: "True"
+  fullName: Toolbox.Forms.WorkerPool.Dispose
+  nameWithType: WorkerPool.Dispose
+- uid: Toolbox.Forms.WorkerPool.Enqueue*
+  name: Enqueue
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_Enqueue_
+  commentId: Overload:Toolbox.Forms.WorkerPool.Enqueue
+  isSpec: "True"
+  fullName: Toolbox.Forms.WorkerPool.Enqueue
+  nameWithType: WorkerPool.Enqueue
+- uid: Toolbox.Forms.WorkerPool.Enqueue``1(System.Action{Toolbox.Forms.IWorker,``0},``0,System.Action{Toolbox.Forms.IWorkResult{``0}})
+  name: Enqueue<TI>(Action<IWorker, TI>, TI, Action<IWorkResult<TI>>?)
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_Enqueue__1_System_Action_Toolbox_Forms_IWorker___0____0_System_Action_Toolbox_Forms_IWorkResult___0___
+  commentId: M:Toolbox.Forms.WorkerPool.Enqueue``1(System.Action{Toolbox.Forms.IWorker,``0},``0,System.Action{Toolbox.Forms.IWorkResult{``0}})
+  name.vb: Enqueue(Of TI)(Action(Of IWorker, TI), TI, Action(Of IWorkResult(Of TI)))
+  fullName: Toolbox.Forms.WorkerPool.Enqueue<TI>(System.Action<Toolbox.Forms.IWorker, TI>, TI, System.Action<Toolbox.Forms.IWorkResult<TI>>?)
+  fullName.vb: Toolbox.Forms.WorkerPool.Enqueue(Of TI)(System.Action(Of Toolbox.Forms.IWorker, TI), TI, System.Action(Of Toolbox.Forms.IWorkResult(Of TI)))
+  nameWithType: WorkerPool.Enqueue<TI>(Action<IWorker, TI>, TI, Action<IWorkResult<TI>>?)
+  nameWithType.vb: WorkerPool.Enqueue(Of TI)(Action(Of IWorker, TI), TI, Action(Of IWorkResult(Of TI)))
+- uid: Toolbox.Forms.WorkerPool.Enqueue``1(System.Action{Toolbox.Forms.IWorker{``0}},System.Action{System.String,System.Int32,``0},System.Action{Toolbox.Forms.IWorkResult})
+  name: Enqueue<TP>(Action<IWorker<TP>>, Action<string, int, TP>?, Action<IWorkResult>?)
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_Enqueue__1_System_Action_Toolbox_Forms_IWorker___0___System_Action_System_String_System_Int32___0__System_Action_Toolbox_Forms_IWorkResult__
+  commentId: M:Toolbox.Forms.WorkerPool.Enqueue``1(System.Action{Toolbox.Forms.IWorker{``0}},System.Action{System.String,System.Int32,``0},System.Action{Toolbox.Forms.IWorkResult})
+  name.vb: Enqueue(Of TP)(Action(Of IWorker(Of TP)), Action(Of String, Integer, TP), Action(Of IWorkResult))
+  fullName: Toolbox.Forms.WorkerPool.Enqueue<TP>(System.Action<Toolbox.Forms.IWorker<TP>>, System.Action<string, int, TP>?, System.Action<Toolbox.Forms.IWorkResult>?)
+  fullName.vb: Toolbox.Forms.WorkerPool.Enqueue(Of TP)(System.Action(Of Toolbox.Forms.IWorker(Of TP)), System.Action(Of String, Integer, TP), System.Action(Of Toolbox.Forms.IWorkResult))
+  nameWithType: WorkerPool.Enqueue<TP>(Action<IWorker<TP>>, Action<string, int, TP>?, Action<IWorkResult>?)
+  nameWithType.vb: WorkerPool.Enqueue(Of TP)(Action(Of IWorker(Of TP)), Action(Of String, Integer, TP), Action(Of IWorkResult))
+- uid: Toolbox.Forms.WorkerPool.Enqueue``1(System.Action{Toolbox.Forms.IWorker{``0}},System.Action{Toolbox.Forms.IWorkResult})
+  name: Enqueue<TP>(Action<IWorker<TP>>, Action<IWorkResult>?)
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_Enqueue__1_System_Action_Toolbox_Forms_IWorker___0___System_Action_Toolbox_Forms_IWorkResult__
+  commentId: M:Toolbox.Forms.WorkerPool.Enqueue``1(System.Action{Toolbox.Forms.IWorker{``0}},System.Action{Toolbox.Forms.IWorkResult})
+  name.vb: Enqueue(Of TP)(Action(Of IWorker(Of TP)), Action(Of IWorkResult))
+  fullName: Toolbox.Forms.WorkerPool.Enqueue<TP>(System.Action<Toolbox.Forms.IWorker<TP>>, System.Action<Toolbox.Forms.IWorkResult>?)
+  fullName.vb: Toolbox.Forms.WorkerPool.Enqueue(Of TP)(System.Action(Of Toolbox.Forms.IWorker(Of TP)), System.Action(Of Toolbox.Forms.IWorkResult))
+  nameWithType: WorkerPool.Enqueue<TP>(Action<IWorker<TP>>, Action<IWorkResult>?)
+  nameWithType.vb: WorkerPool.Enqueue(Of TP)(Action(Of IWorker(Of TP)), Action(Of IWorkResult))
+- uid: Toolbox.Forms.WorkerPool.Enqueue``1(System.String,System.Action{Toolbox.Forms.IWorker,``0},``0,System.Action{Toolbox.Forms.IWorkResult{``0}})
+  name: Enqueue<TI>(string, Action<IWorker, TI>, TI, Action<IWorkResult<TI>>?)
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_Enqueue__1_System_String_System_Action_Toolbox_Forms_IWorker___0____0_System_Action_Toolbox_Forms_IWorkResult___0___
+  commentId: M:Toolbox.Forms.WorkerPool.Enqueue``1(System.String,System.Action{Toolbox.Forms.IWorker,``0},``0,System.Action{Toolbox.Forms.IWorkResult{``0}})
+  name.vb: Enqueue(Of TI)(String, Action(Of IWorker, TI), TI, Action(Of IWorkResult(Of TI)))
+  fullName: Toolbox.Forms.WorkerPool.Enqueue<TI>(string, System.Action<Toolbox.Forms.IWorker, TI>, TI, System.Action<Toolbox.Forms.IWorkResult<TI>>?)
+  fullName.vb: Toolbox.Forms.WorkerPool.Enqueue(Of TI)(String, System.Action(Of Toolbox.Forms.IWorker, TI), TI, System.Action(Of Toolbox.Forms.IWorkResult(Of TI)))
+  nameWithType: WorkerPool.Enqueue<TI>(string, Action<IWorker, TI>, TI, Action<IWorkResult<TI>>?)
+  nameWithType.vb: WorkerPool.Enqueue(Of TI)(String, Action(Of IWorker, TI), TI, Action(Of IWorkResult(Of TI)))
+- uid: Toolbox.Forms.WorkerPool.Enqueue``1(System.String,System.Action{Toolbox.Forms.IWorker{``0}},System.Action{System.String,System.Int32,``0},System.Action{Toolbox.Forms.IWorkResult})
+  name: Enqueue<TP>(string, Action<IWorker<TP>>, Action<string, int, TP>?, Action<IWorkResult>?)
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_Enqueue__1_System_String_System_Action_Toolbox_Forms_IWorker___0___System_Action_System_String_System_Int32___0__System_Action_Toolbox_Forms_IWorkResult__
+  commentId: M:Toolbox.Forms.WorkerPool.Enqueue``1(System.String,System.Action{Toolbox.Forms.IWorker{``0}},System.Action{System.String,System.Int32,``0},System.Action{Toolbox.Forms.IWorkResult})
+  name.vb: Enqueue(Of TP)(String, Action(Of IWorker(Of TP)), Action(Of String, Integer, TP), Action(Of IWorkResult))
+  fullName: Toolbox.Forms.WorkerPool.Enqueue<TP>(string, System.Action<Toolbox.Forms.IWorker<TP>>, System.Action<string, int, TP>?, System.Action<Toolbox.Forms.IWorkResult>?)
+  fullName.vb: Toolbox.Forms.WorkerPool.Enqueue(Of TP)(String, System.Action(Of Toolbox.Forms.IWorker(Of TP)), System.Action(Of String, Integer, TP), System.Action(Of Toolbox.Forms.IWorkResult))
+  nameWithType: WorkerPool.Enqueue<TP>(string, Action<IWorker<TP>>, Action<string, int, TP>?, Action<IWorkResult>?)
+  nameWithType.vb: WorkerPool.Enqueue(Of TP)(String, Action(Of IWorker(Of TP)), Action(Of String, Integer, TP), Action(Of IWorkResult))
+- uid: Toolbox.Forms.WorkerPool.Enqueue``2(System.Action{Toolbox.Forms.IWorker{``1},``0},``0,System.Action{System.String,System.Int32,``1},System.Action{Toolbox.Forms.IWorkResult{``0}})
+  name: Enqueue<TI, TP>(Action<IWorker<TP>, TI>, TI, Action<string, int, TP>?, Action<IWorkResult<TI>>?)
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_Enqueue__2_System_Action_Toolbox_Forms_IWorker___1____0____0_System_Action_System_String_System_Int32___1__System_Action_Toolbox_Forms_IWorkResult___0___
+  commentId: M:Toolbox.Forms.WorkerPool.Enqueue``2(System.Action{Toolbox.Forms.IWorker{``1},``0},``0,System.Action{System.String,System.Int32,``1},System.Action{Toolbox.Forms.IWorkResult{``0}})
+  name.vb: Enqueue(Of TI, TP)(Action(Of IWorker(Of TP), TI), TI, Action(Of String, Integer, TP), Action(Of IWorkResult(Of TI)))
+  fullName: Toolbox.Forms.WorkerPool.Enqueue<TI, TP>(System.Action<Toolbox.Forms.IWorker<TP>, TI>, TI, System.Action<string, int, TP>?, System.Action<Toolbox.Forms.IWorkResult<TI>>?)
+  fullName.vb: Toolbox.Forms.WorkerPool.Enqueue(Of TI, TP)(System.Action(Of Toolbox.Forms.IWorker(Of TP), TI), TI, System.Action(Of String, Integer, TP), System.Action(Of Toolbox.Forms.IWorkResult(Of TI)))
+  nameWithType: WorkerPool.Enqueue<TI, TP>(Action<IWorker<TP>, TI>, TI, Action<string, int, TP>?, Action<IWorkResult<TI>>?)
+  nameWithType.vb: WorkerPool.Enqueue(Of TI, TP)(Action(Of IWorker(Of TP), TI), TI, Action(Of String, Integer, TP), Action(Of IWorkResult(Of TI)))
+- uid: Toolbox.Forms.WorkerPool.Enqueue``2(System.Func{Toolbox.Forms.IWorker,``0,``1},``0,System.Action{Toolbox.Forms.IWorkResult{``0,``1}})
+  name: Enqueue<TI, TO>(Func<IWorker, TI, TO>, TI, Action<IWorkResult<TI, TO>>?)
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_Enqueue__2_System_Func_Toolbox_Forms_IWorker___0___1____0_System_Action_Toolbox_Forms_IWorkResult___0___1___
+  commentId: M:Toolbox.Forms.WorkerPool.Enqueue``2(System.Func{Toolbox.Forms.IWorker,``0,``1},``0,System.Action{Toolbox.Forms.IWorkResult{``0,``1}})
+  name.vb: Enqueue(Of TI, TO)(Func(Of IWorker, TI, TO), TI, Action(Of IWorkResult(Of TI, TO)))
+  fullName: Toolbox.Forms.WorkerPool.Enqueue<TI, TO>(System.Func<Toolbox.Forms.IWorker, TI, TO>, TI, System.Action<Toolbox.Forms.IWorkResult<TI, TO>>?)
+  fullName.vb: Toolbox.Forms.WorkerPool.Enqueue(Of TI, TO)(System.Func(Of Toolbox.Forms.IWorker, TI, TO), TI, System.Action(Of Toolbox.Forms.IWorkResult(Of TI, TO)))
+  nameWithType: WorkerPool.Enqueue<TI, TO>(Func<IWorker, TI, TO>, TI, Action<IWorkResult<TI, TO>>?)
+  nameWithType.vb: WorkerPool.Enqueue(Of TI, TO)(Func(Of IWorker, TI, TO), TI, Action(Of IWorkResult(Of TI, TO)))
+- uid: Toolbox.Forms.WorkerPool.Enqueue``2(System.String,System.Action{Toolbox.Forms.IWorker{``1},``0},``0,System.Action{System.String,System.Int32,``1},System.Action{Toolbox.Forms.IWorkResult{``0}})
+  name: Enqueue<TI, TP>(string, Action<IWorker<TP>, TI>, TI, Action<string, int, TP>?, Action<IWorkResult<TI>>?)
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_Enqueue__2_System_String_System_Action_Toolbox_Forms_IWorker___1____0____0_System_Action_System_String_System_Int32___1__System_Action_Toolbox_Forms_IWorkResult___0___
+  commentId: M:Toolbox.Forms.WorkerPool.Enqueue``2(System.String,System.Action{Toolbox.Forms.IWorker{``1},``0},``0,System.Action{System.String,System.Int32,``1},System.Action{Toolbox.Forms.IWorkResult{``0}})
+  name.vb: Enqueue(Of TI, TP)(String, Action(Of IWorker(Of TP), TI), TI, Action(Of String, Integer, TP), Action(Of IWorkResult(Of TI)))
+  fullName: Toolbox.Forms.WorkerPool.Enqueue<TI, TP>(string, System.Action<Toolbox.Forms.IWorker<TP>, TI>, TI, System.Action<string, int, TP>?, System.Action<Toolbox.Forms.IWorkResult<TI>>?)
+  fullName.vb: Toolbox.Forms.WorkerPool.Enqueue(Of TI, TP)(String, System.Action(Of Toolbox.Forms.IWorker(Of TP), TI), TI, System.Action(Of String, Integer, TP), System.Action(Of Toolbox.Forms.IWorkResult(Of TI)))
+  nameWithType: WorkerPool.Enqueue<TI, TP>(string, Action<IWorker<TP>, TI>, TI, Action<string, int, TP>?, Action<IWorkResult<TI>>?)
+  nameWithType.vb: WorkerPool.Enqueue(Of TI, TP)(String, Action(Of IWorker(Of TP), TI), TI, Action(Of String, Integer, TP), Action(Of IWorkResult(Of TI)))
+- uid: Toolbox.Forms.WorkerPool.Enqueue``3(System.Func{Toolbox.Forms.IWorker{``1},``0,``2},``0,System.Action{System.String,System.Int32,``1},System.Action{Toolbox.Forms.IWorkResult{``0,``2}})
+  name: Enqueue<TI, TP, TO>(Func<IWorker<TP>, TI, TO>, TI, Action<string, int, TP>?, Action<IWorkResult<TI, TO>>?)
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_Enqueue__3_System_Func_Toolbox_Forms_IWorker___1____0___2____0_System_Action_System_String_System_Int32___1__System_Action_Toolbox_Forms_IWorkResult___0___2___
+  commentId: M:Toolbox.Forms.WorkerPool.Enqueue``3(System.Func{Toolbox.Forms.IWorker{``1},``0,``2},``0,System.Action{System.String,System.Int32,``1},System.Action{Toolbox.Forms.IWorkResult{``0,``2}})
+  name.vb: Enqueue(Of TI, TP, TO)(Func(Of IWorker(Of TP), TI, TO), TI, Action(Of String, Integer, TP), Action(Of IWorkResult(Of TI, TO)))
+  fullName: Toolbox.Forms.WorkerPool.Enqueue<TI, TP, TO>(System.Func<Toolbox.Forms.IWorker<TP>, TI, TO>, TI, System.Action<string, int, TP>?, System.Action<Toolbox.Forms.IWorkResult<TI, TO>>?)
+  fullName.vb: Toolbox.Forms.WorkerPool.Enqueue(Of TI, TP, TO)(System.Func(Of Toolbox.Forms.IWorker(Of TP), TI, TO), TI, System.Action(Of String, Integer, TP), System.Action(Of Toolbox.Forms.IWorkResult(Of TI, TO)))
+  nameWithType: WorkerPool.Enqueue<TI, TP, TO>(Func<IWorker<TP>, TI, TO>, TI, Action<string, int, TP>?, Action<IWorkResult<TI, TO>>?)
+  nameWithType.vb: WorkerPool.Enqueue(Of TI, TP, TO)(Func(Of IWorker(Of TP), TI, TO), TI, Action(Of String, Integer, TP), Action(Of IWorkResult(Of TI, TO)))
+- uid: Toolbox.Forms.WorkerPool.Enqueue``3(System.String,System.Func{Toolbox.Forms.IWorker{``1},``0,``2},``0,System.Action{System.String,System.Int32,``1},System.Action{Toolbox.Forms.IWorkResult{``0,``2}})
+  name: Enqueue<TI, TP, TO>(string, Func<IWorker<TP>, TI, TO>, TI, Action<string, int, TP>?, Action<IWorkResult<TI, TO>>?)
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_Enqueue__3_System_String_System_Func_Toolbox_Forms_IWorker___1____0___2____0_System_Action_System_String_System_Int32___1__System_Action_Toolbox_Forms_IWorkResult___0___2___
+  commentId: M:Toolbox.Forms.WorkerPool.Enqueue``3(System.String,System.Func{Toolbox.Forms.IWorker{``1},``0,``2},``0,System.Action{System.String,System.Int32,``1},System.Action{Toolbox.Forms.IWorkResult{``0,``2}})
+  name.vb: Enqueue(Of TI, TP, TO)(String, Func(Of IWorker(Of TP), TI, TO), TI, Action(Of String, Integer, TP), Action(Of IWorkResult(Of TI, TO)))
+  fullName: Toolbox.Forms.WorkerPool.Enqueue<TI, TP, TO>(string, System.Func<Toolbox.Forms.IWorker<TP>, TI, TO>, TI, System.Action<string, int, TP>?, System.Action<Toolbox.Forms.IWorkResult<TI, TO>>?)
+  fullName.vb: Toolbox.Forms.WorkerPool.Enqueue(Of TI, TP, TO)(String, System.Func(Of Toolbox.Forms.IWorker(Of TP), TI, TO), TI, System.Action(Of String, Integer, TP), System.Action(Of Toolbox.Forms.IWorkResult(Of TI, TO)))
+  nameWithType: WorkerPool.Enqueue<TI, TP, TO>(string, Func<IWorker<TP>, TI, TO>, TI, Action<string, int, TP>?, Action<IWorkResult<TI, TO>>?)
+  nameWithType.vb: WorkerPool.Enqueue(Of TI, TP, TO)(String, Func(Of IWorker(Of TP), TI, TO), TI, Action(Of String, Integer, TP), Action(Of IWorkResult(Of TI, TO)))
+- uid: Toolbox.Forms.WorkerPool.ItemStarted
+  name: ItemStarted
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_ItemStarted
+  commentId: E:Toolbox.Forms.WorkerPool.ItemStarted
+  fullName: Toolbox.Forms.WorkerPool.ItemStarted
+  nameWithType: WorkerPool.ItemStarted
+- uid: Toolbox.Forms.WorkerPool.ItemStopped
+  name: ItemStopped
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_ItemStopped
+  commentId: E:Toolbox.Forms.WorkerPool.ItemStopped
+  fullName: Toolbox.Forms.WorkerPool.ItemStopped
+  nameWithType: WorkerPool.ItemStopped
+- uid: Toolbox.Forms.WorkerPool.Owner
+  name: Owner
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_Owner
+  commentId: P:Toolbox.Forms.WorkerPool.Owner
+  fullName: Toolbox.Forms.WorkerPool.Owner
+  nameWithType: WorkerPool.Owner
+- uid: Toolbox.Forms.WorkerPool.Owner*
+  name: Owner
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_Owner_
+  commentId: Overload:Toolbox.Forms.WorkerPool.Owner
+  isSpec: "True"
+  fullName: Toolbox.Forms.WorkerPool.Owner
+  nameWithType: WorkerPool.Owner
+- uid: Toolbox.Forms.WorkerPool.Running
+  name: Running
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_Running
+  commentId: P:Toolbox.Forms.WorkerPool.Running
+  fullName: Toolbox.Forms.WorkerPool.Running
+  nameWithType: WorkerPool.Running
+- uid: Toolbox.Forms.WorkerPool.Running*
+  name: Running
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_Running_
+  commentId: Overload:Toolbox.Forms.WorkerPool.Running
+  isSpec: "True"
+  fullName: Toolbox.Forms.WorkerPool.Running
+  nameWithType: WorkerPool.Running
+- uid: Toolbox.Forms.WorkerPool.Site
+  name: Site
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_Site
+  commentId: P:Toolbox.Forms.WorkerPool.Site
+  fullName: Toolbox.Forms.WorkerPool.Site
+  nameWithType: WorkerPool.Site
+- uid: Toolbox.Forms.WorkerPool.Site*
+  name: Site
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_Site_
+  commentId: Overload:Toolbox.Forms.WorkerPool.Site
+  isSpec: "True"
+  fullName: Toolbox.Forms.WorkerPool.Site
+  nameWithType: WorkerPool.Site
+- uid: Toolbox.Forms.WorkerPool.Started
+  name: Started
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_Started
+  commentId: E:Toolbox.Forms.WorkerPool.Started
+  fullName: Toolbox.Forms.WorkerPool.Started
+  nameWithType: WorkerPool.Started
+- uid: Toolbox.Forms.WorkerPool.Stopped
+  name: Stopped
+  href: api/Toolbox.Forms.WorkerPool.html#Toolbox_Forms_WorkerPool_Stopped
+  commentId: E:Toolbox.Forms.WorkerPool.Stopped
+  fullName: Toolbox.Forms.WorkerPool.Stopped
+  nameWithType: WorkerPool.Stopped
