@@ -35,6 +35,12 @@ namespace Toolbox.Forms
 				
 		internal void Execute(object? state)
 		{
+			if (IsCancelled) // do not start work if the pool is already canceled
+			{
+				Pool.DecrementWorkerCount();
+				return;
+			}
+
 			Pool.OnItemStarted(Name);
 			try
 			{				
@@ -44,7 +50,7 @@ namespace Toolbox.Forms
 			}
 			catch (Exception exception)
 			{
-				OnCompleted(Name, Input, default!, false, exception);
+				OnCompleted(Name, Input, default!, IsCancelled, exception);
 			}
 			finally
 			{
