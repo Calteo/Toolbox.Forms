@@ -284,6 +284,20 @@ namespace Toolbox.Forms
 		}
 
 		public bool Enqueue<TI, TO>(
+			string name,
+			Func<IWorker, TI, TO> action,
+			TI input,
+			Action<IWorkResult<TI, TO>>? completed = null)
+		{
+			return Enqueue<TI, object?, TO>(
+				name,
+				(worker, input) => action(worker, input),
+				input,
+				null,
+				completed);
+		}
+
+		public bool Enqueue<TI, TO>(
 			Func<IWorker, TI, TO> action,
 			TI input,
 			Action<IWorkResult<TI, TO>>? completed = null)

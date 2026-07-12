@@ -33,15 +33,19 @@
 			msgBoxControl = new Toolbox.Forms.Demo.Controls.MsgBoxControl();
 			tabPageWorkerPool = new TabPage();
 			workerPoolControl = new Toolbox.Forms.Demo.Controls.WorkerPoolControl();
+			tabPageObjectListView = new TabPage();
+			objectListViewControl = new Toolbox.Forms.Demo.Controls.ObjectListViewControl();
 			tabControl.SuspendLayout();
 			tabPageMesgBox.SuspendLayout();
 			tabPageWorkerPool.SuspendLayout();
+			tabPageObjectListView.SuspendLayout();
 			SuspendLayout();
 			// 
 			// tabControl
 			// 
 			tabControl.Controls.Add(tabPageMesgBox);
 			tabControl.Controls.Add(tabPageWorkerPool);
+			tabControl.Controls.Add(tabPageObjectListView);
 			tabControl.Dock = DockStyle.Fill;
 			tabControl.Location = new Point(0, 0);
 			tabControl.Margin = new Padding(4);
@@ -73,10 +77,10 @@
 			// tabPageWorkerPool
 			// 
 			tabPageWorkerPool.Controls.Add(workerPoolControl);
-			tabPageWorkerPool.Location = new Point(4, 34);
+			tabPageWorkerPool.Location = new Point(4, 29);
 			tabPageWorkerPool.Name = "tabPageWorkerPool";
 			tabPageWorkerPool.Padding = new Padding(3);
-			tabPageWorkerPool.Size = new Size(1454, 614);
+			tabPageWorkerPool.Size = new Size(192, 67);
 			tabPageWorkerPool.TabIndex = 2;
 			tabPageWorkerPool.Text = "WorkerPool";
 			tabPageWorkerPool.UseVisualStyleBackColor = true;
@@ -86,8 +90,27 @@
 			workerPoolControl.Dock = DockStyle.Fill;
 			workerPoolControl.Location = new Point(3, 3);
 			workerPoolControl.Name = "workerPoolControl";
-			workerPoolControl.Size = new Size(1448, 608);
+			workerPoolControl.Size = new Size(186, 61);
 			workerPoolControl.TabIndex = 0;
+			// 
+			// tabPageObjectListView
+			// 
+			tabPageObjectListView.Controls.Add(objectListViewControl);
+			tabPageObjectListView.Location = new Point(4, 34);
+			tabPageObjectListView.Name = "tabPageObjectListView";
+			tabPageObjectListView.Padding = new Padding(3);
+			tabPageObjectListView.Size = new Size(1454, 614);
+			tabPageObjectListView.TabIndex = 3;
+			tabPageObjectListView.Text = "ObjectListView";
+			tabPageObjectListView.UseVisualStyleBackColor = true;
+			// 
+			// objectListViewControl
+			// 
+			objectListViewControl.Dock = DockStyle.Fill;
+			objectListViewControl.Location = new Point(3, 3);
+			objectListViewControl.Name = "objectListViewControl";
+			objectListViewControl.Size = new Size(1448, 608);
+			objectListViewControl.TabIndex = 0;
 			// 
 			// MainForm
 			// 
@@ -102,6 +125,7 @@
 			tabControl.ResumeLayout(false);
 			tabPageMesgBox.ResumeLayout(false);
 			tabPageWorkerPool.ResumeLayout(false);
+			tabPageObjectListView.ResumeLayout(false);
 			ResumeLayout(false);
 		}
 
@@ -112,5 +136,7 @@
 		private Controls.MsgBoxControl msgBoxControl;
 		private TabPage tabPageWorkerPool;
 		private Controls.WorkerPoolControl workerPoolControl;
+		private TabPage tabPageObjectListView;
+		private Controls.ObjectListViewControl objectListViewControl;
 	}
 }
