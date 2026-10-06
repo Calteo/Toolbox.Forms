@@ -31,9 +31,11 @@
 			splitContainer = new SplitContainer();
 			objectListView = new ObjectListView();
 			groupBox1 = new GroupBox();
+			buttonAdd = new Button();
 			((System.ComponentModel.ISupportInitialize)splitContainer).BeginInit();
 			splitContainer.Panel1.SuspendLayout();
 			splitContainer.SuspendLayout();
+			groupBox1.SuspendLayout();
 			SuspendLayout();
 			// 
 			// splitContainer
@@ -61,6 +63,7 @@
 			// 
 			// groupBox1
 			// 
+			groupBox1.Controls.Add(buttonAdd);
 			groupBox1.Dock = DockStyle.Bottom;
 			groupBox1.Location = new Point(0, 544);
 			groupBox1.Name = "groupBox1";
@@ -68,6 +71,16 @@
 			groupBox1.TabIndex = 1;
 			groupBox1.TabStop = false;
 			groupBox1.Text = "Options";
+			// 
+			// buttonAdd
+			// 
+			buttonAdd.Location = new Point(59, 44);
+			buttonAdd.Name = "buttonAdd";
+			buttonAdd.Size = new Size(94, 29);
+			buttonAdd.TabIndex = 0;
+			buttonAdd.Text = "Add";
+			buttonAdd.UseVisualStyleBackColor = true;
+			buttonAdd.Click += ButtonAddClick;
 			// 
 			// ObjectListViewControl
 			// 
@@ -80,6 +93,7 @@
 			splitContainer.Panel1.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)splitContainer).EndInit();
 			splitContainer.ResumeLayout(false);
+			groupBox1.ResumeLayout(false);
 			ResumeLayout(false);
 		}
 
@@ -88,5 +102,6 @@
 		private SplitContainer splitContainer;
 		private GroupBox groupBox1;
 		private ObjectListView objectListView;
+		private Button buttonAdd;
 	}
 }

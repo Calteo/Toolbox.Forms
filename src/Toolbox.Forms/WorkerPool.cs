@@ -22,7 +22,7 @@ namespace Toolbox.Forms
 			InitializeComponent();			
 		}
 
-		#region Ownwe
+		#region Owner
 		private Control? _owner;
 		/// <summary>
 		/// The control hosting the worker pool. 
@@ -46,8 +46,19 @@ namespace Toolbox.Forms
 			}
 		}		
 
+		internal void Invoke(Action action)
+		{
+			if (Owner == null || !Owner.InvokeRequired)
+			{
+				action();
+				return;
+			}
+			Owner.Invoke(action);
+		}
+
 		private Form? OwnerForm { get; set; }
 
+		
 		private void OwnerFormClosing(object? sender, FormClosingEventArgs e)
 		{
 			if (ClosingBehavior == ClosingBehavior.None 
@@ -184,20 +195,14 @@ namespace Toolbox.Forms
 			}
 
 			if (Started == null) return;
-			if (Owner != null && Owner.InvokeRequired)
-				Owner.Invoke(() => Started(this, EventArgs.Empty));
-			else
-				Started(this, EventArgs.Empty);
+			Invoke(() => Started(this, EventArgs.Empty));
 		}
 
 		private void OnStopped()
 		{
 			if (Stopped == null) return;
 
-			if (Owner != null && Owner.InvokeRequired)
-				Owner.Invoke(() => Stopped(this, EventArgs.Empty));
-			else
-				Stopped(this, EventArgs.Empty);
+			Invoke(() => Stopped(this, EventArgs.Empty));
 		}
 
 		public event EventHandler<WorkItemEventArgs>? ItemStarted;
@@ -205,24 +210,15 @@ namespace Toolbox.Forms
 		{
 			if (ItemStarted == null) return;
 
-			var args = new WorkItemEventArgs(name);
-
-			if (Owner != null && Owner.InvokeRequired)
-				Owner.Invoke(() => ItemStarted(this, args));
-			else
-				ItemStarted(this, args);
+			Invoke(() => ItemStarted(this, new WorkItemEventArgs(name)));
 		}
+
 		public event EventHandler<WorkItemEventArgs>? ItemStopped;
 		internal void OnItemStopped(string name)
 		{
 			if (ItemStopped == null) return;
 
-			var args = new WorkItemEventArgs(name);
-
-			if (Owner != null && Owner.InvokeRequired)
-				Owner.Invoke(() => ItemStopped(this, args));
-			else
-				ItemStopped(this, args);
+			Invoke(() => ItemStopped(this, new WorkItemEventArgs(name)));
 		}
 
 		public void Cancel()

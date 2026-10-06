@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
-using System.Windows.Forms;
+﻿using Toolbox.ComponentModel;
+using Toolbox.Forms.Demo.Models;
 
 namespace Toolbox.Forms.Demo.Controls
 {
@@ -13,7 +8,14 @@ namespace Toolbox.Forms.Demo.Controls
 		public ObjectListViewControl()
 		{
 			InitializeComponent();
-			
+			objectListView.DataSource = Datas;
+		}
+
+		private BindableList<Data> Datas { get; } = [];
+
+		private void ButtonAddClick(object sender, EventArgs e)
+		{
+			Datas.Add(new Data { Id = Datas.Count + 1, Name = $"Some Data #{Datas.Count + 1}" });
 		}
 	}
 }

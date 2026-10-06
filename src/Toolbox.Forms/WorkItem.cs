@@ -65,7 +65,7 @@ namespace Toolbox.Forms
 			{
 				var result = new WorkResult<TI, TO>(name, input, output, canceled, exception);
 
-				Pool.Owner!.Invoke(() => Completed(result));
+				Pool.Invoke(() => Completed(result));
 			}
 		}
 
@@ -73,7 +73,7 @@ namespace Toolbox.Forms
 		{
 			if (Progress != null)
 			{
-				Pool.Owner!.Invoke(() => Progress(Name, id, arg));
+				Pool.Invoke(() => Progress(Name, id, arg));
 			}
 		}
 	}
