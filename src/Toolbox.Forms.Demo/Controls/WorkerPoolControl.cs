@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Windows.Forms;
+﻿using System.Data;
 
 namespace Toolbox.Forms.Demo.Controls
 {
@@ -15,18 +8,25 @@ namespace Toolbox.Forms.Demo.Controls
 		{
 			InitializeComponent();
 
-			comboBoxClosing.Items.AddRange(Enum.GetValues<ClosingBehavior>().Cast<object>().ToArray());
+			comboBoxClosing.Items.AddRange([.. Enum.GetValues<ClosingBehavior>().Cast<object>()]);
 			comboBoxClosing.SelectedItem = workerPool.ClosingBehavior;
+
+			// this.SubscribeEvent(workerPool, nameof(workerPool.Started), WorkerPoolStarted2);
 		}
 
-		private void WorkerPoolStarted(object sender, EventArgs e)
+		private void WorkerPoolStarted2(object? sender, EventArgs e)
+		{
+			MessageBox.Show(this, "Started");
+		}
+
+		private void WorkerPoolStarted(object? sender, EventArgs e)
 		{
 			labelRunning.Text = "Worker pool is running...";
 			WriteProtocol("Worker pool has started.");
 			buttonCancel.Enabled = true;
 		}
 
-		private void WorkerPoolStopped(object sender, EventArgs e)
+		private void WorkerPoolStopped(object? sender, EventArgs e)
 		{
 			labelRunning.Text = "Worker pool is stopped.";
 			WriteProtocol("Worker pool has stopped.");

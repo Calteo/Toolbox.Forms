@@ -1,6 +1,5 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.Design;
-using System.Security.Cryptography;
 
 namespace Toolbox.Forms
 {

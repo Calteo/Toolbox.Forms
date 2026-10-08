@@ -14,9 +14,15 @@
     <RepositoryUrl>https://github.com/Calteo/Toolbox.Forms</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/Calteo/Toolbox.Forms</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="images\toolbox.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
