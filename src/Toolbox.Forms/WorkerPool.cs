@@ -227,6 +227,28 @@ namespace Toolbox.Forms
 
 		internal bool IsCanceled { get; private set; }
 
+		/// <summary>
+		/// Enqueues a task to be executed by the worker pool. 
+		/// The task is defined by the provided action, which takes an IWorker instance as a parameter. 
+		/// An optional completed callback can be specified to handle the result of the task once it has finished executing.
+		/// </summary>
+		/// <param name="action"></param>
+		/// <param name="completed"></param>
+		/// <returns></returns>
+		public bool Enqueue(Action<IWorker> action, Action<IWorkResult>? completed = null)
+		{
+			return Enqueue<object?, object?, object?>(
+				GetWorkerId(),
+				(worker, _) =>
+				{
+					action(worker);
+					return null;
+				},
+				null,
+				null,
+				completed);
+		}
+
 		public bool Enqueue<TP>(
 			Action<IWorker<TP>> action,
 			Action<IWorkResult>? completed = null)
